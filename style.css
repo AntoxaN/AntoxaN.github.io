@@ -170,6 +170,7 @@ footer p    {
     body {
         width: 1329px;
         margin: auto 0;
+        padding-right: 0;
             }
     .innerBox {
      margin-right: 0;
