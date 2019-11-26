@@ -19,6 +19,7 @@ body    {
     background-size: cover;
     margin-top: 84px;
     height: 403px;
+    width: auto;
     }
 h1  {
     font-family: Roboto;
