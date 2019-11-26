@@ -169,8 +169,7 @@ footer p    {
 @media screen and (max-width:1373px) {
     body {
         width: 1329px;
-        margin-left: 0;
-        margin-left: 0;
+        margin: auto;
         padding-left: 0;
         padding-left: 0;
             }
