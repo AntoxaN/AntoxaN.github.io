@@ -1,6 +1,6 @@
 body    {
     width: 100%;
-    margin: 0;
+    margin: 100%;
 }
 .toph {
     background-color: #007765;
@@ -19,7 +19,7 @@ body    {
     background-size: cover;
     margin-top: 84px;
     height: 403px;
-    width: inherit;
+    width: 100%;
 }
 h1  {
     font-family: Roboto;
