@@ -171,13 +171,14 @@ footer p    {
         width: 1219px;
         margin: auto;
         padding-left: 0;
-        padding-left: 0;
+        padding-right: 0;
             }
     .innerBox {
-     margin: auto 0;
+     margin-left: 0;
+     margin-right: 0;
 }
 .undrhdr    {
     margin: auto;
         padding-left: 0;
-        padding-left: 0;
+        padding-right: 0;
     }
