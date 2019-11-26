@@ -170,6 +170,6 @@ footer p    {
     body {
         width: 1263px;
         padding: 0;
-        margin: auto;
+        margin: auto 0;
     }
 }
