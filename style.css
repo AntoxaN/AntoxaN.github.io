@@ -178,7 +178,8 @@ footer p    {
      margin-right: 0;
 }
 .undrhdr    {
-    margin: auto;
+    margin-left: 0;
+     margin-right: 0;
         padding-left: 0;
         padding-right: 0;
     }
