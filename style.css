@@ -1,6 +1,6 @@
 body    {
     width: 100%;
-    margin: 0;
+    margin: auto;
 }
 .toph {
     background-color: #007765;
@@ -169,7 +169,7 @@ footer p    {
 @media screen and (max-width:1329px) {
     body {
         width: 1329px;
-        margin: auto;
+        margin: 0;
         padding: auto;
             }
     .innerBox {
