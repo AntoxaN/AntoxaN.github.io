@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Board Gamers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title">Boarders Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </header>
+        <form  id="survey-form" class="menu">
+            <div class="menu_item">
+                <label for="name" id="name-label">Name</label>
+                <input class="window" type="text" required name="Name" id="name" placeholder="Enter Your Name">
+            </div>
+            <div class="menu_item">
+                <label for="email" id="email-label">Email</label>
+                <input class="window" type="email" required pattern="*@*" name="Email" id="email" placeholder="Enter Your Email">
+            </div>
+            <div class="menu_item">
+                <label for="age" id="number-label">Age</label>
+                <input class="window" type="number" id="number" name="Age" id="age" placeholder="Enter Your Age" min="10" max="99">
+            </div>
+            <div class="menu_item">
+                <label for="dropdown">Select the way you came to board games</label>
+                <select class="window" name="role" id="dropdown">
+                    <option disabled selected>Select favourite genre</option> 
+                    <option value="advise">Friend`s recommendation</option>
+                    <option value="advertising">Advertising</option>
+                    <option value="blood">It`s in my blood</option>
+                    <option value="question">Board Games? What is it?</option>
+                    <option value="quit">I want to escape from Board Games</option>
+                    <option value="I">I`m the Board Games</option>
+                </select>
+            </div>    
+            <div class="menu_item">
+                <p>Would you recommend "ZadrOtci" to a friend?</p>
+                <label><input name="recomend" type="radio" class="radio" value="yes" checked>Definitely</label>
+                <label><input name="recomend" type="radio" class="radio" value="may be">May be</label>
+                <label><input name="recomend" type="radio" class="radio" value="no">Not Sure</label>
+            </div>
+            <div class="menu_item">
+                <p>Select the games you have already played</p>
+                <label><input type="checkbox" name="prefer" value="Carcasson" id="">Carcasson</label>
+                <label><input type="checkbox" name="prefer" value="Catan" id="">Catan</label>
+                <label><input type="checkbox" name="prefer" value="Terra Mystica" id="">Terra Mystica</label>
+                <label><input type="checkbox" name="prefer" value="Subbarbia" id="">Subbarbia</label>
+                <label><input type="checkbox" name="prefer" value="Dice Forge" id="">Dice Forge</label>
+                <label><input type="checkbox" name="prefer" value="Alhambra" id="">Alhambra</label>
+            </div>
+            <div class="menu_item">
+                <p>Any comments or suggestions?</p>
+                <textarea name="" id="tarea" cols="" rows="" placeholder="Enter your comment here..."></textarea>
+            </div>
+            <div class="menu_item">
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>

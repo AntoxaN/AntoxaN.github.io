@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://regnum.ru/uploads/pictures/news/2015/09/21/1442816647_%D0%B8%D0%B3%D1%80%D0%B0-repng_normal.png);
+    font-family: 'Poppins', sans-serif;
+    color:rgb(243, 243, 243);
+    background-attachment: fixed;
+    position: relative;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+.container  {
+    margin: 0 auto;
+    max-width: 576px;
+}
+.menu {
+    margin: 0 auto;
+    max-width: 576px;
+    background-color: rgba(27, 27, 50, 0.8);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    min-width: 320px;
+}
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+    min-width: 320px;
+}
+h1 {
+    margin-bottom: 0;
+}
+#description {
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 200;
+}
+.window {
+    background-color:rgb(243, 243, 243);
+    border-radius: 6px;
+    transition: 0.1s;
+    border: none;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-family: inherit;
+    margin-top: 5px;
+    position: relative;
+}
+.window:focus {
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 2px;
+    border-color: cornflowerblue;
+    border-radius: 5px;
+}
+.menu_item {
+    flex-basis: content;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+p {
+    margin-top: 0;
+ /*   margin-bottom: 25px;*/
+}
+.radio {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 255, 0.3);
+    z-index: -1;
+}  
+.window {
+    padding-left: 10px;
+}
+select  {
+    color: rgb(107, 105, 105);
+}
+[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+[class="window"] {
+    color: rgb(107, 105, 105);
+}
+#tarea {
+    width: 100%;
+    min-height: 120px;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 5px;
+}
+button {
+    font-family: inherit;
+    font-size: 20px;
+    background-color: rgb(8, 146, 146);
+    border-style: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    color: whitesmoke;
+}
